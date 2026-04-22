@@ -1,5 +1,7 @@
 # setPageLayout props lost on same-path (query-only) navigation
 
+issue: https://github.com/nuxt/nuxt/issues/34845
+
 Minimal Nuxt 4 reproduction for a bug in the `setPageLayout(name, props)`
 feature added in [nuxt/nuxt#33805](https://github.com/nuxt/nuxt/pull/33805)
 (merged 2025-12-23).
